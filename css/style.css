@@ -1,0 +1,42 @@
+body{
+  
+    /*https://i1.wp.com/css-tricks.com/wp-content/uploads/2017/09/repeating-linear-gradient.png?ssl=1*/
+    background-image: url('https://4.bp.blogspot.com/-s7UjB1cCtqI/UOxxz9O1IDI/AAAAAAAAAu4/v08K5XqOkwU/s1600/103278_Papel-de-Parede-Listras-Paralelas_1680x1050.jpg');
+    
+    background-size: 50vh;
+    
+    font-family: cursive, URW Chancery;
+  }
+  
+  .menu {
+    background-color: lightpink;
+  }
+  .menu ul{
+    display: flex;
+    justify-content: space-around; 
+  }
+  .menu li{
+    list-style: none;
+  }
+  
+  
+  
+  a{
+    text-decoration: none; 
+  }
+  
+  a:hover{
+    text-decoration: underline;
+  }
+  
+  .site-subtitle,
+  .site-title{
+    color: purple;
+    text-align: center;
+  }
+  
+  .site-subtitle {
+    font-style: italic;
+  }
+  
+  

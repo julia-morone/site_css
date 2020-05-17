@@ -4,12 +4,11 @@ body{
     background-image: url('https://4.bp.blogspot.com/-s7UjB1cCtqI/UOxxz9O1IDI/AAAAAAAAAu4/v08K5XqOkwU/s1600/103278_Papel-de-Parede-Listras-Paralelas_1680x1050.jpg');
     
     background-size: 50vh;
-    
-    font-family: cursive, URW Chancery;
+    font-family: "Abril Fatface";
   }
   
   .menu {
-    background-color: lightpink;
+    background-color:transparent;
   }
   .menu ul{
     display: flex;
@@ -17,26 +16,35 @@ body{
   }
   .menu li{
     list-style: none;
+    background-image: linear-gradient(180deg, rgba(229,135,88,0.4),lightpink, #ff755c);
+    padding: 1vh 4vh;
+    border-radius: 15px 0px 15px 0px ;
+    transition:0.8s;
   }
   
-  
+  .menu li:hover{
+    border-radius: 0px 15px 0px 15px;
+    transition: 0.5s;
+  }
   
   a{
     text-decoration: none; 
+    color: cornsilk;
+    transition:0.3s;
   }
   
   a:hover{
-    text-decoration: underline;
+    color: #BA55D3;
   }
   
   .site-subtitle,
   .site-title{
     color: purple;
     text-align: center;
+    font-weight: normal;
   }
   
   .site-subtitle {
     font-style: italic;
   }
-  
   
